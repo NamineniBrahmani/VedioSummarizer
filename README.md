@@ -2,7 +2,7 @@
 
 An AI-powered Streamlit app that **transcribes**, **summarizes**, and **highlights** video content from either a **YouTube link** or a **local video file**.
 
-**Try it live:** [VedioSummarizer](https://VedioSummarizer.streamlit.app/)
+**Try it live:** [Vedio Summarizer](https://vedio-summarizer.streamlit.app/)
 
 
 ## Features
@@ -90,7 +90,7 @@ streamlit run app.py
 - At the end of processing, you can download the combined summary and key highlights as a text file.
 
 # Try it out now
-👉 [Launch the App](https://VedioSummarizer.streamlit.app/)
+👉 [Launch the App](https://vedio-summarizer.streamlit.app/)
 
 ## License
 - This project is licensed under the MIT License.
