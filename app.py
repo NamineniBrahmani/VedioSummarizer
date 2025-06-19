@@ -21,7 +21,7 @@ genai.configure(api_key=GEMINI_KEY)
 st.title("🎬 Video Summarizer & Highlights Extractor with Hugging Face + Gemini")
 
 # Step 1: Input type
-input_mode = st.radio("Select input type:", [""🔗 YouTube Link",📎 Upload Local Video"])
+input_mode = st.radio("Select input type:", ["🔗 YouTube Link","📎 Upload Local Video"])
 video_path = ""
 transcript_text = ""
 
