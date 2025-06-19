@@ -18,10 +18,10 @@ GEMINI_KEY = os.getenv("GEMINI_API_KEY") or st.secrets["GEMINI_API_KEY"]
 HF_TOKEN = os.getenv("HUGGINGFACE_API_KEY") or st.secrets["HUGGINGFACE_API_KEY"]
 genai.configure(api_key=GEMINI_KEY)
 
-st.title("🎬 Video Summarizer with Hugging Face + Gemini")
+st.title("🎬 Video Summarizer & Highlights Extractor with Hugging Face + Gemini")
 
 # Step 1: Input type
-input_mode = st.radio("Select input type:", ["📎 Upload Local Video", "🔗 YouTube Link"])
+input_mode = st.radio("Select input type:", [""🔗 YouTube Link",📎 Upload Local Video"])
 video_path = ""
 transcript_text = ""
 
